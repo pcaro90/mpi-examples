@@ -20,7 +20,7 @@ int main(int argc, char **argv)
   char processor_name[MPI_MAX_PROCESSOR_NAME];
   MPI_Get_processor_name(processor_name, &processor_name_len);
 
-  printf("Process %d on %s out of %d\n", rank, processor_name, nproc);
+  printf("Process: %2d   Processor: %s\n", rank, processor_name);
 
   MPI_Finalize();
 
