@@ -6,7 +6,7 @@
 
 CC=mpicc
 CFLAGS=-Wall
-EXAMPLES=01-hello_world
+EXAMPLES=01-hello_world 02-master_slave
 
 build_all: $(EXAMPLES)
 
