@@ -29,7 +29,7 @@ int main(int argc, char **argv)
     if (rank == 0) {
         printf("Master process on processor %s. We have %d processes.\n", processor_name, nproc);
     } else {
-        printf("Slave %2d on processor %s\n", rank, processor_name);
+        printf("Worker %2d on processor %s\n", rank, processor_name);
     }
 
     MPI_Finalize();
