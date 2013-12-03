@@ -17,6 +17,8 @@ called `XX-super_potato`.
 
 If you want to delete all the executable files, just run `make clean`.
 
+_Remember_: You need to have a MPI implementation, such as Open MPI, installed.
+
 
 ## Running
 
