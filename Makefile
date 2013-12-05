@@ -6,7 +6,7 @@
 
 CC=mpicc
 CFLAGS=-Wall
-EXAMPLES=01-hello_world 02-master_workers 03-send_recv_01
+EXAMPLES=01-hello_world 02-master_workers 03-send_recv_01 04-send_recv_02
 
 build_all: $(EXAMPLES)
 
