@@ -54,7 +54,7 @@ int main(int argc, char **argv)
 
         // Prepare the matrix and fill it with random data
         srand(time(NULL));
-        matrix = (int**)malloc(sizeof(int) * ROWS * COLS);
+        matrix = (int**)malloc(sizeof(int*) * ROWS);
 
         for (i = 0; i < ROWS; ++i) {
             matrix[i] = (int*)malloc(sizeof(int) * COLS);
